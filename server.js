@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Токен вашего бота и ваш ID (замените на реальные значения)
-const BOT_TOKEN = '8302315415:AAGhTfLfK4Z0Ia7LkI1aiSA5vJxJO1zOD7g';
+const BOT_TOKEN = '';
 const CHAT_ID = '1066370255';
 
 
@@ -56,3 +56,4 @@ app.post('/send-to-telegram', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Сервер запущен на порту ${PORT}`);
 });
+
